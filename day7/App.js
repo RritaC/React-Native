@@ -1,18 +1,23 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import * as React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 import MenuScreen from './screens/MenuScreen';
+import ExerciseScreen from './screens/ExerciseScreen';
+import ButtonScreen from './screens/ButtonScreen';
+import ListScreen from './screens/ListScreen';
 
-export default function App() {
-  return (
-    <MenuScreen />
-  );
+
+const Stack = createStackNavigator();
+
+export default function App(){
+  return(
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Menu">
+          <Stack.Screen name= "Menu" component={MenuScreen} options={{title:'App'}}/>
+          <Stack.Screen name= "Exercise" component={ExerciseScreen}/>
+          <Stack.Screen name= "ButtonScreen" component={ButtonScreen}/>
+          <Stack.Screen name= "ListScreen" component={ListScreen}/>
+      </Stack.Navigator>
+    </NavigationContainer>
+  )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

@@ -1,24 +1,29 @@
-import React, { useState } from 'react';
-import { View, Text, Button, StyleSheet } from 'react-native';
+import React from 'react';
+import { View, Text, StyleSheet, Button } from 'react-native';
 
-const MenuScreen = () => {
-    <View>
-        <Text style={styles.text}>
-            Hello and Welcome
-        </Text>
-    </View>
-
-
-}
+const MenuScreen = ({ navigation }) => {
+    console.log(navigation);
+    return (
+        <View>
+            <Text style={styles.text}>Welcome to Menu Screen</Text>
+            <Button
+                title="Go To List"
+                onPress={() => navigation.navigate('ListScreen')}
+            />
+            <Button
+                title="Go To Button"
+                onPress={() => navigation.navigate('ButtonScreen')}
+            />
+        </View>
+    );
+};
 
 const styles = StyleSheet.create({
     text: {
         fontSize: 15,
         textAlign: 'center',
-        marginVertical: 20,
-
+        marginVertical: 20
     }
-})
-
+});
 
 export default MenuScreen;

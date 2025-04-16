@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Vienna",
+      "country": "Austria",
+      "description": "A city of imperial palaces and classical music, nestled along the Danube River."
+    },
+    {
+      "id": 2,
+      "name": "Barcelona",
+      "country": "Spain",
+      "description": "A vibrant coastal city known for its art, architecture, and Catalan culture."
+    },
+    {
+      "id": 3,
+      "name": "Kyoto",
+      "country": "Japan",
+      "description": "An ancient city famed for its temples, gardens, and traditional wooden houses."
+    },
+    {
+      "id": 4,
+      "name": "Cape Town",
+      "country": "South Africa",
+      "description": "A port city beneath Table Mountain, offering stunning views and rich history."
+    },
+    {
+      "id": 5,
+      "name": "Montreal",
+      "country": "Canada",
+      "description": "A bilingual city with European charm, known for festivals and fine cuisine."
+    },
+    {
+      "id": 6,
+      "name": "Auckland",
+      "country": "New Zealand",
+      "description": "A sprawling city between two harbors, loved for its natural beauty and diversity."
+    }
+  ]
+  

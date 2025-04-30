@@ -34,6 +34,27 @@ const styles=Stylesheet.create({
         },
         title:{
             marginTop:35,
+            fontSize:20,
+            marginBottom:16,
+        },
+        productContainer:{
+            marginHorizontal:20
+        },
+        btn:{
+            backgroundColor:"#22D4FF",
+            height:50,
+            borderRadius:8,
+            justifyContent:"center",
+            marginBottom:20
+        },
+        btnText:{
+            color:"white",
+            textAlign:"center",
+            fontSize:"bold"
+        },
+        textStyle:{
+            fontSize: 15,
+            marginBottom:20
         }
 
 })

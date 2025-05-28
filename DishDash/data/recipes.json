@@ -1,0 +1,1056 @@
+[
+    {
+      "id": "1",
+      "name": "Spaghetti Bolognese",
+      "image": "https://supervalu.ie/image/var/files/real-food/recipes/Uploaded-2020/spaghetti-bolognese-recipe.jpg",
+      "ingredients": [
+        "200g spaghetti",
+        "100g minced beef",
+        "1 onion",
+        "2 garlic cloves",
+        "400g canned tomatoes",
+        "Olive oil",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Cook spaghetti according to package instructions.",
+        "Heat olive oil and sauté onions and garlic.",
+        "Add minced beef and cook until browned.",
+        "Add tomatoes, salt, and pepper. Simmer for 20 minutes.",
+        "Serve sauce over spaghetti."
+      ],
+      "cuisine": "Italian",
+      "cookingTime": 45,
+      "servings": 4,
+      "difficulty": "Medium",
+      "diet": "None",
+      "mealType": "Dinner"
+    },
+    {
+      "id": "2",
+      "name": "Chicken Curry",
+      "image": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/chicken_curry_61994_16x9.jpg",
+      "ingredients": [
+        "500g chicken breasts",
+        "2 onions",
+        "3 garlic cloves",
+        "1 tbsp curry powder",
+        "400ml coconut milk",
+        "Salt and pepper",
+        "Cilantro for garnish"
+      ],
+      "instructions": [
+        "Sauté onions and garlic until translucent.",
+        "Add chicken and cook until browned.",
+        "Stir in curry powder and cook for 2 minutes.",
+        "Add coconut milk, salt, and pepper, simmer for 25 minutes.",
+        "Garnish with cilantro and serve with rice."
+      ],
+      "cuisine": "Indian",
+      "cookingTime": 40,
+      "servings": 4,
+      "difficulty": "Medium",
+      "diet": "None",
+      "mealType": "Lunch"
+    },
+    {
+      "id": "3",
+      "name": "Vegan Avocado Toast",
+      "image": "https://s.lightorangebean.com/media/20240914152419/Vegan-Avocado-Toast_-doner.png",
+      "ingredients": [
+        "2 slices whole grain bread",
+        "1 ripe avocado",
+        "Salt and pepper",
+        "Chili flakes",
+        "Lemon juice"
+      ],
+      "instructions": [
+        "Toast the bread slices.",
+        "Mash the avocado with salt, pepper, and lemon juice.",
+        "Spread avocado mix on toast.",
+        "Sprinkle chili flakes and serve."
+      ],
+      "cuisine": "American",
+      "cookingTime": 10,
+      "servings": 1,
+      "difficulty": "Easy",
+      "diet": "Vegan",
+      "mealType": "Breakfast"
+    },
+    {
+      "id": "4",
+      "name": "Beef Tacos",
+      "image": "https://img.taste.com.au/Z2m_6zIt/taste/2016/11/beef-tacos-98153-1.jpeg",
+      "ingredients": [
+        "300g ground beef",
+        "8 taco shells",
+        "1 packet taco seasoning",
+        "1 cup shredded lettuce",
+        "1 diced tomato",
+        "1/2 cup shredded cheese",
+        "Sour cream"
+      ],
+      "instructions": [
+        "Brown the ground beef in a pan.",
+        "Add taco seasoning and water as per packet instructions.",
+        "Heat taco shells as directed.",
+        "Assemble tacos with beef, lettuce, tomato, cheese, and sour cream."
+      ],
+      "cuisine": "Mexican",
+      "cookingTime": 20,
+      "servings": 4,
+      "difficulty": "Easy",
+      "diet": "None",
+      "mealType": "Dinner"
+    },
+    {
+      "id": "5",
+      "name": "Greek Salad",
+      "image": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/greek_salad_16407_16x9.jpg",
+      "ingredients": [
+        "1 cucumber",
+        "4 tomatoes",
+        "1 red onion",
+        "200g feta cheese",
+        "Kalamata olives",
+        "Olive oil",
+        "Oregano"
+      ],
+      "instructions": [
+        "Chop cucumber, tomatoes, and onion.",
+        "Combine in bowl with olives.",
+        "Crumble feta on top.",
+        "Drizzle with olive oil and sprinkle oregano."
+      ],
+      "cuisine": "Greek",
+      "cookingTime": 15,
+      "servings": 2,
+      "difficulty": "Easy",
+      "diet": "Vegetarian",
+      "mealType": "Lunch"
+    },
+    {
+      "id": "6",
+      "name": "Pancakes",
+      "image": "https://eggs.ca/wp-content/uploads/2024/06/fluffy-pancakes-1664x832-1.jpg",
+      "ingredients": [
+        "1 cup flour",
+        "1 tbsp sugar",
+        "1 tsp baking powder",
+        "1 egg",
+        "3/4 cup milk",
+        "Butter for frying",
+        "Maple syrup"
+      ],
+      "instructions": [
+        "Mix dry ingredients in bowl.",
+        "Add egg and milk, whisk until smooth.",
+        "Heat butter in pan over medium heat.",
+        "Pour batter to form pancakes, flip when bubbles form.",
+        "Serve with maple syrup."
+      ],
+      "cuisine": "American",
+      "cookingTime": 20,
+      "servings": 2,
+      "difficulty": "Easy",
+      "diet": "Vegetarian",
+      "mealType": "Breakfast"
+    },
+    {
+      "id": "7",
+      "name": "Vegetable Stir Fry",
+      "image": "https://playswellwithbutter.com/wp-content/uploads/2022/02/Beef-and-Vegetable-Stir-Fry-16.jpg",
+      "ingredients": [
+        "2 cups mixed vegetables",
+        "1 tbsp ginger",
+        "2 garlic cloves",
+        "3 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "1 tsp chili flakes",
+        "Rice for serving"
+      ],
+      "instructions": [
+        "Heat oil in wok or large pan.",
+        "Add ginger and garlic, stir for 30 seconds.",
+        "Add vegetables and stir fry for 5 minutes.",
+        "Add soy sauce and chili flakes, cook 2 more minutes.",
+        "Serve over rice."
+      ],
+      "cuisine": "Asian",
+      "cookingTime": 15,
+      "servings": 2,
+      "difficulty": "Easy",
+      "diet": "Vegetarian",
+      "mealType": "Dinner"
+    },
+    {
+      "id": "8",
+      "name": "Chocolate Chip Cookies",
+      "image": "https://static01.nyt.com/images/2022/02/12/dining/JT-Chocolate-Chip-Cookies/JT-Chocolate-Chip-Cookies-jumbo.jpg",
+      "ingredients": [
+        "2 1/4 cups flour",
+        "1 tsp baking soda",
+        "1 tsp salt",
+        "1 cup butter",
+        "3/4 cup sugar",
+        "3/4 cup brown sugar",
+        "2 eggs",
+        "2 cups chocolate chips"
+      ],
+      "instructions": [
+        "Preheat oven to 375°F (190°C).",
+        "Mix flour, baking soda and salt in bowl.",
+        "Cream butter and sugars, then add eggs.",
+        "Gradually add flour mixture, then chocolate chips.",
+        "Drop spoonfuls onto baking sheet, bake for 9-11 minutes."
+      ],
+      "cuisine": "American",
+      "cookingTime": 25,
+      "servings": 24,
+      "difficulty": "Medium",
+      "diet": "Vegetarian",
+      "mealType": "Dessert"
+    },
+    {
+      "id": "9",
+      "name": "Beef Burger",
+      "image": "https://images.immediate.co.uk/production/volatile/sites/2/2015/04/2015-02-24-olive-test-d5b505c.jpg?crop=7px%2C1865px%2C3278px%2C1410px&resize=1200%2C630",
+      "ingredients": [
+        "500g ground beef",
+        "1 egg",
+        "1/4 cup breadcrumbs",
+        "1 tsp Worcestershire sauce",
+        "4 burger buns",
+        "Lettuce, tomato, onion for serving",
+        "Cheese slices"
+      ],
+      "instructions": [
+        "Mix beef, egg, breadcrumbs and sauce in bowl.",
+        "Form into 4 patties.",
+        "Grill or fry for 4-5 minutes per side.",
+        "Toast buns lightly.",
+        "Assemble burgers with toppings."
+      ],
+      "cuisine": "American",
+      "cookingTime": 20,
+      "servings": 4,
+      "difficulty": "Easy",
+      "diet": "None",
+      "mealType": "Lunch"
+    },
+    {
+      "id": "10",
+      "name": "Mushroom Risotto",
+      "image": "https://www.perfectitaliano.com.au/content/dam/perfectitaliano-aus/recipe/0_desktop/Desktop-Chicken-Mushroom-Cheese-Risotto.jpg",
+      "ingredients": [
+        "1 1/2 cups Arborio rice",
+        "4 cups vegetable stock",
+        "200g mushrooms",
+        "1 onion",
+        "1/2 cup white wine",
+        "1/4 cup parmesan",
+        "2 tbsp butter"
+      ],
+      "instructions": [
+        "Sauté onion in butter until soft.",
+        "Add mushrooms, cook for 5 minutes.",
+        "Add rice, stir to coat with butter.",
+        "Add wine, stir until absorbed.",
+        "Add stock gradually, stirring constantly.",
+        "When rice is tender, stir in parmesan."
+      ],
+      "cuisine": "Italian",
+      "cookingTime": 40,
+      "servings": 4,
+      "difficulty": "Medium",
+      "diet": "Vegetarian",
+      "mealType": "Dinner"
+    },
+    {
+      "id": "11",
+      "name": "Chicken Noodle Soup",
+      "image": "https://www.inspiredtaste.net/wp-content/uploads/2018/09/Easy-Chicken-Noodle-Soup-Recipe-1200.jpg",
+      "ingredients": [
+        "1 chicken breast",
+        "4 cups chicken stock",
+        "1 carrot",
+        "1 celery stalk",
+        "1 onion",
+        "100g egg noodles",
+        "Parsley for garnish"
+      ],
+      "instructions": [
+        "Poach chicken in stock until cooked, then shred.",
+        "Chop vegetables and sauté in pot.",
+        "Add stock and chicken, simmer 15 minutes.",
+        "Add noodles, cook until tender.",
+        "Garnish with parsley."
+      ],
+      "cuisine": "American",
+      "cookingTime": 35,
+      "servings": 4,
+      "difficulty": "Easy",
+      "diet": "None",
+      "mealType": "Lunch"
+    },
+    {
+      "id": "12",
+      "name": "Caesar Salad",
+      "image": "https://www.cuisinart.com/dw/image/v2/ABAF_PRD/on/demandware.static/-/Sites-us-cuisinart-sfra-Library/default/dw92573286/images/recipe-Images/classic-caesar-salad-recipe.jpg?sw=1200&sh=1200&sm=fit",
+      "ingredients": [
+        "1 romaine lettuce",
+        "1/2 cup croutons",
+        "1/4 cup parmesan",
+        "1 chicken breast (optional)",
+        "Caesar dressing",
+        "Anchovies (optional)"
+      ],
+      "instructions": [
+        "Chop lettuce into bite-sized pieces.",
+        "Grill chicken if using, then slice.",
+        "Toss lettuce with dressing.",
+        "Top with croutons, parmesan, chicken and anchovies."
+      ],
+      "cuisine": "American",
+      "cookingTime": 15,
+      "servings": 2,
+      "difficulty": "Easy",
+      "diet": "None",
+      "mealType": "Lunch"
+    },
+    {
+      "id": "13",
+      "name": "Vegetable Lasagna",
+      "image": "https://www.southernliving.com/thmb/lHwv9bsRVOIKIlAhk1Dny3jHzkc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Vegetable_Lasagna_015-f174ddcd114c4fc9a88d484ce40a0db3.jpg",
+      "ingredients": [
+        "9 lasagna sheets",
+        "2 cups tomato sauce",
+        "1 zucchini",
+        "1 eggplant",
+        "1 bell pepper",
+        "2 cups ricotta",
+        "1 cup mozzarella"
+      ],
+      "instructions": [
+        "Slice vegetables thinly.",
+        "Layer sauce, sheets, vegetables and ricotta in dish.",
+        "Repeat layers, ending with sauce.",
+        "Top with mozzarella.",
+        "Bake at 375°F (190°C) for 45 minutes."
+      ],
+      "cuisine": "Italian",
+      "cookingTime": 60,
+      "servings": 6,
+      "difficulty": "Medium",
+      "diet": "Vegetarian",
+      "mealType": "Dinner"
+    },
+    {
+      "id": "14",
+      "name": "Beef Stew",
+      "image": "https://ichef.bbc.co.uk/ace/standard/1600/food/recipes/slow_cooker_roast_beef_94008_16x9.jpg.webp",
+      "ingredients": [
+        "500g beef chuck",
+        "2 carrots",
+        "2 potatoes",
+        "1 onion",
+        "3 cups beef stock",
+        "2 tbsp flour",
+        "1 tbsp tomato paste"
+      ],
+      "instructions": [
+        "Coat beef in flour and brown in pot.",
+        "Add chopped vegetables and cook 5 minutes.",
+        "Add stock and tomato paste.",
+        "Simmer covered for 2 hours until meat is tender."
+      ],
+      "cuisine": "American",
+      "cookingTime": 135,
+      "servings": 4,
+      "difficulty": "Easy",
+      "diet": "None",
+      "mealType": "Dinner"
+    },
+    {
+      "id": "15",
+      "name": "Margherita Pizza",
+      "image": "https://safrescobaldistatic.blob.core.windows.net/media/2022/11/PIZZA-MARGHERITA.jpg",
+      "ingredients": [
+        "1 pizza dough",
+        "1/2 cup tomato sauce",
+        "1 1/2 cups mozzarella",
+        "Fresh basil",
+        "Olive oil"
+      ],
+      "instructions": [
+        "Preheat oven to 475°F (245°C).",
+        "Roll out dough on baking sheet.",
+        "Spread sauce, top with cheese.",
+        "Bake for 12-15 minutes.",
+        "Top with fresh basil and drizzle with oil."
+      ],
+      "cuisine": "Italian",
+      "cookingTime": 25,
+      "servings": 4,
+      "difficulty": "Medium",
+      "diet": "Vegetarian",
+      "mealType": "Dinner"
+    },
+    {
+      "id": "16",
+      "name": "French Toast",
+      "image": "https://www.allrecipes.com/thmb/GHsW45mTpy_2EFSjCNEPdeo7Tek=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/ALR-recipe-16895-fluffy-french-toast-hero-01-ddmfs-4x3-7fd61e054f2c4f0f868b7ab0dd8767ae.jpg",
+      "ingredients": [
+        "4 slices bread",
+        "2 eggs",
+        "1/2 cup milk",
+        "1 tsp cinnamon",
+        "1 tbsp sugar",
+        "Butter for frying",
+        "Maple syrup"
+      ],
+      "instructions": [
+        "Whisk eggs, milk, cinnamon and sugar.",
+        "Soak bread slices in mixture.",
+        "Fry in butter until golden on both sides.",
+        "Serve with maple syrup."
+      ],
+      "cuisine": "French",
+      "cookingTime": 15,
+      "servings": 2,
+      "difficulty": "Easy",
+      "diet": "Vegetarian",
+      "mealType": "Breakfast"
+    },
+    {
+      "id": "17",
+      "name": "Grilled Salmon",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/how-to-grill-salmon-recipe1-1655870645.jpg?crop=0.6666666666666667xw:1xh;center,top&resize=1200:*",
+      "ingredients": [
+        "2 salmon fillets",
+        "1 lemon",
+        "2 tbsp olive oil",
+        "Salt and pepper",
+        "Dill for garnish"
+      ],
+      "instructions": [
+        "Preheat grill to medium-high.",
+        "Rub salmon with oil, salt and pepper.",
+        "Grill for 4-5 minutes per side.",
+        "Squeeze lemon over top, garnish with dill."
+      ],
+      "cuisine": "International",
+      "cookingTime": 15,
+      "servings": 2,
+      "difficulty": "Easy",
+      "diet": "None",
+      "mealType": "Dinner"
+    },
+    {
+      "id": "18",
+      "name": "Chicken Fajitas",
+      "image": "https://www.simplyrecipes.com/thmb/Igb2OthIr1Onu0tCPyNVMp8EmtI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2015__04__chicken-fajitas-horiz-a2-1800-8ca8b1b6a694468b8bccf5a1d8e07c6d.jpg",
+      "ingredients": [
+        "2 chicken breasts",
+        "1 bell pepper",
+        "1 onion",
+        "2 tbsp fajita seasoning",
+        "8 tortillas",
+        "Sour cream and salsa"
+      ],
+      "instructions": [
+        "Slice chicken and vegetables into strips.",
+        "Sauté chicken until cooked, remove from pan.",
+        "Sauté vegetables until tender.",
+        "Combine with chicken and seasoning.",
+        "Serve with warm tortillas and toppings."
+      ],
+      "cuisine": "Mexican",
+      "cookingTime": 25,
+      "servings": 4,
+      "difficulty": "Easy",
+      "diet": "None",
+      "mealType": "Dinner"
+    },
+    {
+      "id": "19",
+      "name": "Minestrone Soup",
+      "image": "https://www.oliveandmango.com/images/uploads/2022_02_28_classic_minestrone_soup_1.jpg",
+      "ingredients": [
+        "1 onion",
+        "2 carrots",
+        "2 celery stalks",
+        "400g canned tomatoes",
+        "1 cup pasta",
+        "4 cups vegetable stock",
+        "1 can kidney beans"
+      ],
+      "instructions": [
+        "Sauté chopped vegetables in pot.",
+        "Add tomatoes and stock, simmer 20 minutes.",
+        "Add pasta and beans, cook until pasta is tender."
+      ],
+      "cuisine": "Italian",
+      "cookingTime": 40,
+      "servings": 6,
+      "difficulty": "Easy",
+      "diet": "Vegetarian",
+      "mealType": "Lunch"
+    },
+    {
+      "id": "20",
+      "name": "Banana Bread",
+      "image": "https://www.allrecipes.com/thmb/jE7YIxQgStOAMwyLvxgdKogMFLY=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/6984-banana-sour-cream-bread-DDMFS-4x3-42e521007c6241ca9db1a870f93d70b4.jpg",
+      "ingredients": [
+        "3 ripe bananas",
+        "1 1/2 cups flour",
+        "1 tsp baking soda",
+        "1/2 cup sugar",
+        "1 egg",
+        "1/4 cup melted butter",
+        "1/2 cup walnuts (optional)"
+      ],
+      "instructions": [
+        "Preheat oven to 350°F (175°C).",
+        "Mash bananas in bowl.",
+        "Mix in remaining ingredients.",
+        "Pour into greased loaf pan.",
+        "Bake for 50-60 minutes."
+      ],
+      "cuisine": "American",
+      "cookingTime": 70,
+      "servings": 8,
+      "difficulty": "Easy",
+      "diet": "Vegetarian",
+      "mealType": "Breakfast"
+    },
+    {
+      "id": "21",
+      "name": "Beef Stir Fry",
+      "image": "https://img.taste.com.au/WYHIu1ak/taste/2016/11/teriyaki-beef-stir-fry-107502-1.jpeg",
+      "ingredients": [
+        "300g beef strips",
+        "2 cups mixed vegetables",
+        "3 tbsp soy sauce",
+        "1 tbsp honey",
+        "1 tbsp ginger",
+        "2 garlic cloves",
+        "Rice for serving"
+      ],
+      "instructions": [
+        "Marinate beef in soy sauce and honey for 15 minutes.",
+        "Stir-fry beef until browned, remove from pan.",
+        "Stir-fry vegetables with ginger and garlic.",
+        "Return beef to pan, cook 2 more minutes.",
+        "Serve over rice."
+      ],
+      "cuisine": "Asian",
+      "cookingTime": 25,
+      "servings": 2,
+      "difficulty": "Easy",
+      "diet": "None",
+      "mealType": "Dinner"
+    },
+    {
+      "id": "22",
+      "name": "Caprese Salad",
+      "image": "https://www.seriouseats.com/thmb/5kQKbm3V-zgurSr95PTITqaS_vs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-caprese-salad-recipe-hero-05_1-9ce2f9b0601c45279e07320f9548fa66.JPG",
+      "ingredients": [
+        "2 tomatoes",
+        "200g fresh mozzarella",
+        "Fresh basil",
+        "Olive oil",
+        "Balsamic glaze",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Slice tomatoes and mozzarella.",
+        "Arrange on plate alternating slices.",
+        "Tuck basil leaves between slices.",
+        "Drizzle with oil and balsamic.",
+        "Season with salt and pepper."
+      ],
+      "cuisine": "Italian",
+      "cookingTime": 10,
+      "servings": 2,
+      "difficulty": "Easy",
+      "diet": "Vegetarian",
+      "mealType": "Lunch"
+    },
+    {
+      "id": "23",
+      "name": "Lentil Soup",
+      "image": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2023/09/Mediterranean-Lentil-Soup-main-2.jpg",
+      "ingredients": [
+        "1 cup dried lentils",
+        "1 onion",
+        "2 carrots",
+        "2 celery stalks",
+        "4 cups vegetable stock",
+        "1 tsp cumin",
+        "1 bay leaf"
+      ],
+      "instructions": [
+        "Rinse lentils thoroughly.",
+        "Sauté chopped vegetables in pot.",
+        "Add lentils, stock and spices.",
+        "Simmer for 30 minutes until lentils are tender.",
+        "Remove bay leaf before serving."
+      ],
+      "cuisine": "International",
+      "cookingTime": 40,
+      "servings": 4,
+      "difficulty": "Easy",
+      "diet": "Vegan",
+      "mealType": "Lunch"
+    },
+    {
+      "id": "24",
+      "name": "Shrimp Scampi",
+      "image": "https://www.allrecipes.com/thmb/jiV_4f8vXFle1RdFLgd8-_31J3M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/229960-shrimp-scampi-with-pasta-DDMFS-4x3-e065ddef4e6d44479d37b4523808cc23.jpg",
+      "ingredients": [
+        "300g shrimp",
+        "3 garlic cloves",
+        "1/4 cup white wine",
+        "2 tbsp butter",
+        "1 tbsp lemon juice",
+        "Parsley for garnish",
+        "Pasta for serving"
+      ],
+      "instructions": [
+        "Cook pasta according to package.",
+        "Sauté garlic in butter for 1 minute.",
+        "Add shrimp, cook until pink.",
+        "Add wine and lemon juice, simmer 2 minutes.",
+        "Toss with pasta, garnish with parsley."
+      ],
+      "cuisine": "Italian",
+      "cookingTime": 20,
+      "servings": 2,
+      "difficulty": "Medium",
+      "diet": "None",
+      "mealType": "Dinner"
+    },
+    {
+      "id": "25",
+      "name": "Omelette",
+      "image": "https://www.blueband.com/en-pk/-/media/Project/Upfield/Brands/Blue-Band/Blue-Band-PK/Assets/Recipes/Web-banner-3.jpg?rev=e6eef31a2aa84da8bf62a5a578c5b90a&w=1600",
+      "ingredients": [
+        "3 eggs",
+        "1 tbsp milk",
+        "1/4 cup shredded cheese",
+        "1 tbsp butter",
+        "Salt and pepper",
+        "Fillings of choice (ham, mushrooms, etc)"
+      ],
+      "instructions": [
+        "Whisk eggs with milk, salt and pepper.",
+        "Melt butter in pan over medium heat.",
+        "Pour in eggs, let set slightly.",
+        "Add fillings and cheese.",
+        "Fold omelette in half when set."
+      ],
+      "cuisine": "French",
+      "cookingTime": 10,
+      "servings": 1,
+      "difficulty": "Easy",
+      "diet": "Vegetarian",
+      "mealType": "Breakfast"
+    },
+    {
+      "id": "26",
+      "name": "Ratatouille",
+      "image": "https://www.kikkoman.eu/fileadmin/_processed_/1/8/csm_1075-recipe-page-Saffron-scented-Ratatouille_desktop_5ddfe5fdbf.jpg",
+      "ingredients": [
+        "1 eggplant",
+        "1 zucchini",
+        "1 bell pepper",
+        "2 tomatoes",
+        "1 onion",
+        "3 garlic cloves",
+        "Herbes de Provence"
+      ],
+      "instructions": [
+        "Chop all vegetables into chunks.",
+        "Sauté onion and garlic until soft.",
+        "Add remaining vegetables and herbs.",
+        "Cook covered for 30 minutes, stirring occasionally."
+      ],
+      "cuisine": "French",
+      "cookingTime": 45,
+      "servings": 4,
+      "difficulty": "Medium",
+      "diet": "Vegan",
+      "mealType": "Dinner"
+    },
+    {
+      "id": "27",
+      "name": "Chicken Parmesan",
+      "image": "https://georgesmarket.com/wp-content/uploads/2015/03/Chicken-Parmesan-1024x683.jpg",
+      "ingredients": [
+        "2 chicken breasts",
+        "1 cup breadcrumbs",
+        "1/2 cup parmesan",
+        "1 egg",
+        "1 cup marinara sauce",
+        "1 cup mozzarella",
+        "Spaghetti for serving"
+      ],
+      "instructions": [
+        "Pound chicken to even thickness.",
+        "Dip in egg, then breadcrumb-parmesan mix.",
+        "Bake at 375°F (190°C) for 20 minutes.",
+        "Top with sauce and cheese, bake 10 more minutes.",
+        "Serve with spaghetti."
+      ],
+      "cuisine": "Italian",
+      "cookingTime": 40,
+      "servings": 2,
+      "difficulty": "Medium",
+      "diet": "None",
+      "mealType": "Dinner"
+    },
+    {
+      "id": "28",
+      "name": "Tuna Salad",
+      "image": "https://healthyfoodiegirl.com/wp-content/uploads/2024/01/Healthy-Tuna-Salad.jpg",
+      "ingredients": [
+        "1 can tuna",
+        "2 tbsp mayonnaise",
+        "1 celery stalk",
+        "1/4 onion",
+        "Lemon juice",
+        "Salt and pepper",
+        "Lettuce or bread for serving"
+      ],
+      "instructions": [
+        "Drain tuna and place in bowl.",
+        "Finely chop celery and onion, add to tuna.",
+        "Mix in mayonnaise and lemon juice.",
+        "Season with salt and pepper.",
+        "Serve on bread or over lettuce."
+      ],
+      "cuisine": "American",
+      "cookingTime": 10,
+      "servings": 2,
+      "difficulty": "Easy",
+      "diet": "None",
+      "mealType": "Lunch"
+    },
+    {
+      "id": "29",
+      "name": "Pumpkin Soup",
+      "image": "https://www.healthyfood.com/wp-content/uploads/2019/07/Creamy-pumpkin-soup-1024x638.jpg",
+      "ingredients": [
+        "500g pumpkin",
+        "1 onion",
+        "2 cups vegetable stock",
+        "1/2 cup cream",
+        "Nutmeg",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Chop pumpkin and onion.",
+        "Sauté onion until soft.",
+        "Add pumpkin and stock, simmer until pumpkin is tender.",
+        "Blend until smooth.",
+        "Stir in cream and seasonings."
+      ],
+      "cuisine": "International",
+      "cookingTime": 35,
+      "servings": 4,
+      "difficulty": "Easy",
+      "diet": "Vegetarian",
+      "mealType": "Lunch"
+    },
+    {
+      "id": "30",
+      "name": "Beef Wellington",
+      "image": "https://static01.nyt.com/images/2019/12/13/dining/mc-beef-wellington/mc-beef-wellington-mediumSquareAt3X-v2.jpg",
+      "ingredients": [
+        "500g beef tenderloin",
+        "200g mushrooms",
+        "1 sheet puff pastry",
+        "2 tbsp mustard",
+        "3 slices prosciutto",
+        "1 egg for egg wash"
+      ],
+      "instructions": [
+        "Sear beef on all sides, brush with mustard.",
+        "Process mushrooms into paste, sauté until dry.",
+        "Layer prosciutto, mushroom mix, then beef on pastry.",
+        "Wrap tightly, seal edges, brush with egg wash.",
+        "Bake at 400°F (200°C) for 25-30 minutes."
+      ],
+      "cuisine": "British",
+      "cookingTime": 60,
+      "servings": 4,
+      "difficulty": "Hard",
+      "diet": "None",
+      "mealType": "Dinner"
+    },
+    {
+      "id": "31",
+      "name": "Miso Soup",
+      "image": "https://www.allrecipes.com/thmb/foXNoD8pki-R_UTcVIpw_WwN4Ko=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-RM-13107-miso-soup-ddmfs-1x2-8dd87e98ca4344f7815857f75dc4928e.jpg",
+      "ingredients": [
+        "4 cups dashi stock",
+        "3 tbsp miso paste",
+        "100g tofu",
+        "2 green onions",
+        "Seaweed (optional)"
+      ],
+      "instructions": [
+        "Heat stock to simmer (not boiling).",
+        "Dissolve miso paste in some stock, then return to pot.",
+        "Add cubed tofu and chopped onions.",
+        "Simmer 2-3 minutes, add seaweed if using."
+      ],
+      "cuisine": "Japanese",
+      "cookingTime": 15,
+      "servings": 4,
+      "difficulty": "Easy",
+      "diet": "Vegetarian",
+      "mealType": "Lunch"
+    },
+    {
+      "id": "32",
+      "name": "Chicken Quesadilla",
+      "image": "https://img.taste.com.au/0Kl93Czc/taste/2016/11/chicken-quesadillas-with-avocado-cream-5354-1.jpeg",
+      "ingredients": [
+        "2 tortillas",
+        "1 cooked chicken breast",
+        "1 cup shredded cheese",
+        "1/4 bell pepper",
+        "Sour cream and salsa",
+        "Oil for frying"
+      ],
+      "instructions": [
+        "Shred chicken and chop pepper.",
+        "Layer cheese, chicken and pepper on tortilla.",
+        "Top with second tortilla.",
+        "Cook in oiled pan until golden on both sides.",
+        "Cut into wedges, serve with dips."
+      ],
+      "cuisine": "Mexican",
+      "cookingTime": 15,
+      "servings": 2,
+      "difficulty": "Easy",
+      "diet": "None",
+      "mealType": "Lunch"
+    },
+    {
+      "id": "33",
+      "name": "Apple Pie",
+      "image": "https://cdn.jwplayer.com/v2/media/sC8av9Hc/thumbnails/oynyDlfN.jpg?width=1280",
+      "ingredients": [
+        "6 apples",
+        "1 cup sugar",
+        "1 tsp cinnamon",
+        "2 pie crusts",
+        "2 tbsp butter",
+        "1 egg for egg wash"
+      ],
+      "instructions": [
+        "Peel and slice apples, mix with sugar and cinnamon.",
+        "Line pie dish with one crust.",
+        "Add apple mixture, dot with butter.",
+        "Top with second crust, seal edges, cut vents.",
+        "Brush with egg wash, bake at 375°F (190°C) for 45 minutes."
+      ],
+      "cuisine": "American",
+      "cookingTime": 60,
+      "servings": 8,
+      "difficulty": "Medium",
+      "diet": "Vegetarian",
+      "mealType": "Dessert"
+    },
+    {
+      "id": "34",
+      "name": "Pad Thai",
+      "image": "https://hot-thai-kitchen.com/wp-content/uploads/2019/09/pad-thai-2019-sm.jpg",
+      "ingredients": [
+        "200g rice noodles",
+        "200g shrimp or chicken",
+        "2 eggs",
+        "1 cup bean sprouts",
+        "3 tbsp pad Thai sauce",
+        "Crushed peanuts",
+        "Lime wedges"
+      ],
+      "instructions": [
+        "Soak noodles according to package.",
+        "Stir-fry protein until cooked, push to side.",
+        "Scramble eggs in same pan.",
+        "Add noodles and sauce, toss to combine.",
+        "Top with sprouts and peanuts, serve with lime."
+      ],
+      "cuisine": "Thai",
+      "cookingTime": 30,
+      "servings": 2,
+      "difficulty": "Medium",
+      "diet": "None",
+      "mealType": "Dinner"
+    },
+    {
+      "id": "35",
+      "name": "Guacamole",
+      "image": "https://www.foodandwine.com/thmb/PaNa5IByv6syP1U3s3mHuN_BK2c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/guacamole-for-a-crowd-FT-RECIPE0125-624c884187d44062ae4fb86794d0769c.jpeg",
+      "ingredients": [
+        "3 avocados",
+        "1 lime",
+        "1/2 onion",
+        "1 tomato",
+        "Cilantro",
+        "Salt and pepper",
+        "Tortilla chips"
+      ],
+      "instructions": [
+        "Mash avocados in bowl.",
+        "Finely chop onion, tomato and cilantro.",
+        "Mix into avocados with lime juice.",
+        "Season with salt and pepper.",
+        "Serve with chips."
+      ],
+      "cuisine": "Mexican",
+      "cookingTime": 15,
+      "servings": 4,
+      "difficulty": "Easy",
+      "diet": "Vegan",
+      "mealType": "Appetizer"
+    },
+    {
+      "id": "36",
+      "name": "Beef Bulgogi",
+      "image": "https://static01.nyt.com/images/2023/11/14/multimedia/JM-Bulgogi-qmfj/JM-Bulgogi-qmfj-superJumbo.jpg",
+      "ingredients": [
+        "500g beef sirloin",
+        "1/2 pear",
+        "5 tbsp soy sauce",
+        "2 tbsp sugar",
+        "1 tbsp sesame oil",
+        "2 garlic cloves",
+        "Rice for serving"
+      ],
+      "instructions": [
+        "Slice beef very thinly.",
+        "Blend pear with soy sauce, sugar, oil and garlic.",
+        "Marinate beef for at least 1 hour.",
+        "Grill or stir-fry until cooked.",
+        "Serve with rice."
+      ],
+      "cuisine": "Korean",
+      "cookingTime": 30,
+      "servings": 4,
+      "difficulty": "Medium",
+      "diet": "None",
+      "mealType": "Dinner"
+    },
+    {
+      "id": "37",
+      "name": "Egg Fried Rice",
+      "image": "https://www.carolinescooking.com/wp-content/uploads/2016/01/vegetable-egg-fried-rice-photo-1-500x375.jpg",
+      "ingredients": [
+        "2 cups cooked rice",
+        "2 eggs",
+        "1/2 cup peas and carrots",
+        "2 tbsp soy sauce",
+        "1 tsp sesame oil",
+        "2 green onions"
+      ],
+      "instructions": [
+        "Scramble eggs in pan, remove.",
+        "Sauté vegetables until tender.",
+        "Add rice and soy sauce, stir well.",
+        "Return eggs to pan, mix.",
+        "Drizzle with sesame oil, top with onions."
+      ],
+      "cuisine": "Chinese",
+      "cookingTime": 15,
+      "servings": 2,
+      "difficulty": "Easy",
+      "diet": "Vegetarian",
+      "mealType": "Lunch"
+    },
+    {
+      "id": "38",
+      "name": "Tiramisu",
+      "image": "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2024/09/THUMB-VIDEO-2_rev1-56.jpeg?im=Resize,width=742;",
+      "ingredients": [
+        "250g mascarpone",
+        "3 eggs",
+        "1/2 cup sugar",
+        "1 cup coffee",
+        "Ladyfinger biscuits",
+        "Cocoa powder"
+      ],
+      "instructions": [
+        "Separate eggs, beat yolks with sugar.",
+        "Mix in mascarpone.",
+        "Beat whites to stiff peaks, fold into mixture.",
+        "Dip ladyfingers in coffee, layer in dish.",
+        "Alternate layers of biscuits and cream.",
+        "Dust with cocoa, refrigerate 4 hours."
+      ],
+      "cuisine": "Italian",
+      "cookingTime": 30,
+      "servings": 8,
+      "difficulty": "Medium",
+      "diet": "Vegetarian",
+      "mealType": "Dessert"
+    },
+    {
+      "id": "39",
+      "name": "Falafel",
+      "image": "https://s7300.pcdn.co/wp-content/uploads/2023/01/falafel-2.jpg",
+      "ingredients": [
+        "1 cup dried chickpeas",
+        "1/2 onion",
+        "3 garlic cloves",
+        "1 tsp cumin",
+        "1 tsp coriander",
+        "Oil for frying",
+        "Pita and tahini for serving"
+      ],
+      "instructions": [
+        "Soak chickpeas overnight, drain.",
+        "Process all ingredients in food processor.",
+        "Form into small patties.",
+        "Fry until golden brown.",
+        "Serve in pita with tahini sauce."
+      ],
+      "cuisine": "Middle Eastern",
+      "cookingTime": 30,
+      "servings": 4,
+      "difficulty": "Medium",
+      "diet": "Vegan",
+      "mealType": "Lunch"
+    },
+    {
+      "id": "40",
+      "name": "Chicken Satay",
+      "image": "https://img.delicious.com.au/8PCeQ2P4/del/2017/02/chicken-satay-with-spicy-peanut-sauce-sate-ayam-41949-2.jpg",
+      "ingredients": [
+        "500g chicken thighs",
+        "1/2 cup peanut butter",
+        "1/4 cup soy sauce",
+        "2 tbsp lime juice",
+        "1 tbsp honey",
+        "1 tsp curry powder",
+        "Skewers"
+      ],
+      "instructions": [
+        "Cut chicken into strips, thread onto skewers.",
+        "Mix remaining ingredients for sauce.",
+        "Grill chicken, brushing with sauce.",
+        "Serve with remaining sauce for dipping."
+      ],
+      "cuisine": "Thai",
+      "cookingTime": 25,
+      "servings": 4,
+      "difficulty": "Medium",
+      "diet": "None",
+      "mealType": "Dinner"
+    }
+  ]
+  

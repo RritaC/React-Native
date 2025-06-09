@@ -1,77 +1,48 @@
 import React, { useState } from 'react';
 import {
   View, Text, Image, StyleSheet, ScrollView, Dimensions,
-  Alert, TouchableOpacity, FlatList
+  Alert, TouchableOpacity, FlatList, Modal, TextInput
 } from 'react-native';
 import { INGREDIENT_CATEGORIES } from '../data/ingredients';
-import { OPENAI_API_KEY } from '@env';
-
+import Constants from 'expo-constants';
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 
 export default function CookingSpaceScreen() {
   const [addedIngredients, setAddedIngredients] = useState([]);
-  const [generatedRecipes, setGeneratedRecipes] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const [userRecipes, setUserRecipes] = useState([]);
+  const [modalVisible, setModalVisible] = useState(false);
+  const [recipeName, setRecipeName] = useState('');
+  const [recipeSteps, setRecipeSteps] = useState('');
+  const [selectedIngredient, setSelectedIngredient] = useState(null);
 
-  const cook = async () => {
+  const openRecipeModal = (ingredient) => {
     if (addedIngredients.length === 0) {
       Alert.alert('Add some ingredients first!');
       return;
     }
-    setLoading(true);
-    const ingredientNames = addedIngredients.map(i => i.name);
-    const prompt = `I have these ingredients: ${ingredientNames.join(', ')}. Suggest 3 easy recipes I can cook using them, with short descriptions and instructions formatted in markdown as follows:
-// ## Recipe title
-// - Ingredients:
-// - ingredient 1
-// - ingredient 2
-// - Instructions:
-// 1. step one
-// 2. step two`;
-
-    try {
-      const res = await fetch('https://api.openai.com/v1/chat/completions', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: 'Bearer ${OPENAI_API_KEY}',
-        },
-        body: JSON.stringify({
-          model: 'gpt-3.5-turbo',
-          messages: [{ role: 'user', content: prompt }],
-          max_tokens: 800,
-        }),
-      });
-
-      const data = await res.json();
-      const parsed = parseRecipes(data.choices[0].message.content);
-      setGeneratedRecipes(parsed);
-    } catch (err) {
-      Alert.alert('Error: ' + err.message);
-    }
-    setLoading(false);
+    setSelectedIngredient(ingredient);
+    setModalVisible(true);
   };
 
-  const parseRecipes = (text) => {
-    const blocks = text.split('## ').filter(b => b.trim() !== '');
-    return blocks.map(block => {
-      const lines = block.trim().split('\n').map(l => l.trim());
-      const title = lines[0];
-      const ingIndex = lines.findIndex(l => l.toLowerCase().startsWith('- ingredients'));
-      const instIndex = lines.findIndex(l => l.toLowerCase().startsWith('- instructions'));
-      const ingredients = [];
-      const instructions = [];
-      if (ingIndex !== -1 && instIndex !== -1) {
-        for (let i = ingIndex + 1; i < instIndex; i++) {
-          if (lines[i].startsWith('-')) ingredients.push(lines[i].replace(/^- /, ''));
-        }
-        for (let i = instIndex + 1; i < lines.length; i++) {
-          if (/^\d+\./.test(lines[i])) instructions.push(lines[i]);
-        }
-      }
-      return { title, ingredients, instructions };
-    });
+  const saveRecipe = () => {
+    if (!recipeName.trim()) {
+      Alert.alert('Please enter a recipe name');
+      return;
+    }
+
+    const newRecipe = {
+      title: recipeName,
+      ingredients: addedIngredients.map(i => i.name),
+      instructions: recipeSteps.split('\n').filter(step => step.trim() !== ''),
+      isUserCreated: true
+    };
+
+    setUserRecipes(prev => [...prev, newRecipe]);
+    setModalVisible(false);
+    setRecipeName('');
+    setRecipeSteps('');
+    setAddedIngredients([]);
   };
 
   const renderColumn = (label, ingredients) => (
@@ -83,7 +54,6 @@ export default function CookingSpaceScreen() {
             key={item.id}
             onPress={() => {
               setAddedIngredients(prev => [...prev, item]);
-              setGeneratedRecipes([]);
             }}
             style={styles.ingredientBox}
           >
@@ -109,19 +79,90 @@ export default function CookingSpaceScreen() {
         <Text style={styles.boardLabel}>Cooking Board</Text>
         <View style={styles.boardSpace}>
           {addedIngredients.map((item, index) => (
-            <Image key={item.id + index} source={item.uri} style={styles.icon} />
+            <TouchableOpacity 
+              key={item.id + index} 
+              onPress={() => openRecipeModal(item)}
+            >
+              <Image source={item.uri} style={styles.icon} />
+            </TouchableOpacity>
           ))}
         </View>
-        <TouchableOpacity style={styles.aiButton} onPress={cook} disabled={loading}>
-          <Text style={styles.aiText}>{loading ? 'Cooking...' : 'AI'}</Text>
+        <TouchableOpacity 
+          style={styles.logButton} 
+          onPress={() => openRecipeModal()}
+          disabled={addedIngredients.length === 0}
+        >
+          <Text style={styles.logText}>Log Recipe</Text>
         </TouchableOpacity>
       </View>
 
-      {generatedRecipes.length > 0 && (
+      {/* Recipe Logging Modal */}
+      <Modal
+        animationType="slide"
+        transparent={true}
+        visible={modalVisible}
+        onRequestClose={() => {
+          setModalVisible(false);
+        }}
+      >
+        <View style={styles.modalContainer}>
+          <View style={styles.modalView}>
+            <Text style={styles.modalTitle}>Create New Recipe</Text>
+            
+            {selectedIngredient && (
+              <Text style={styles.modalText}>
+                Selected Ingredient: {selectedIngredient.name}
+              </Text>
+            )}
+            
+            <Text style={styles.modalLabel}>Recipe Name:</Text>
+            <TextInput
+              style={styles.input}
+              onChangeText={setRecipeName}
+              value={recipeName}
+              placeholder="Enter recipe name"
+            />
+            
+            <Text style={styles.modalLabel}>Ingredients:</Text>
+            <View style={styles.ingredientsList}>
+              {addedIngredients.map((item, index) => (
+                <Text key={index} style={styles.ingredientItem}>• {item.name}</Text>
+              ))}
+            </View>
+            
+            <Text style={styles.modalLabel}>Instructions:</Text>
+            <TextInput
+              style={[styles.input, styles.multilineInput]}
+              onChangeText={setRecipeSteps}
+              value={recipeSteps}
+              placeholder="Enter steps (one per line)"
+              multiline
+              numberOfLines={4}
+            />
+            
+            <View style={styles.modalButtons}>
+              <TouchableOpacity
+                style={[styles.modalButton, styles.cancelButton]}
+                onPress={() => setModalVisible(false)}
+              >
+                <Text style={styles.buttonText}>Cancel</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={[styles.modalButton, styles.saveButton]}
+                onPress={saveRecipe}
+              >
+                <Text style={styles.buttonText}>Save Recipe</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        </View>
+      </Modal>
+
+      {userRecipes.length > 0 && (
         <View style={styles.recipeArea}>
-          <Text style={styles.recipeTitle}>AI GENERATED RECIPES</Text>
+          <Text style={styles.recipeTitle}>YOUR RECIPES</Text>
           <FlatList
-            data={generatedRecipes}
+            data={userRecipes}
             keyExtractor={(_, i) => i.toString()}
             numColumns={3}
             columnWrapperStyle={{ justifyContent: 'space-around' }}
@@ -134,7 +175,7 @@ export default function CookingSpaceScreen() {
                 ))}
                 <Text style={styles.recipeHeader}>Instructions:</Text>
                 {item.instructions.map((step, idx) => (
-                  <Text key={idx} style={styles.recipeText}>{step}</Text>
+                  <Text key={idx} style={styles.recipeText}>{idx + 1}. {step}</Text>
                 ))}
               </View>
             )}
@@ -185,14 +226,14 @@ const styles = StyleSheet.create({
     gap: 12,
     minHeight: 100,
   },
-  aiButton: {
+  logButton: {
     backgroundColor: '#5D4037',
     borderRadius: 10,
     paddingVertical: 10,
     paddingHorizontal: 22,
     marginTop: 12,
   },
-  aiText: { color: '#fff', fontWeight: 'bold', fontSize: 16 },
+  logText: { color: '#fff', fontWeight: 'bold', fontSize: 16 },
   recipeArea: {
     paddingBottom: 40,
   },
@@ -218,4 +259,77 @@ const styles = StyleSheet.create({
   recipeCardTitle: { fontSize: 16, fontWeight: 'bold', marginBottom: 6, color: '#BF360C' },
   recipeHeader: { fontWeight: 'bold', marginTop: 10, marginBottom: 4, color: '#5D4037' },
   recipeText: { fontSize: 13, color: '#333', marginLeft: 6, marginBottom: 2 },
+  // Modal styles
+  modalContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0,0,0,0.5)',
+  },
+  modalView: {
+    backgroundColor: 'white',
+    borderRadius: 20,
+    padding: 25,
+    width: '90%',
+    maxHeight: '80%',
+  },
+  modalTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginBottom: 15,
+    color: '#5D4037',
+    textAlign: 'center',
+  },
+  modalText: {
+    fontSize: 16,
+    marginBottom: 15,
+    color: '#333',
+  },
+  modalLabel: {
+    fontWeight: 'bold',
+    marginTop: 10,
+    marginBottom: 5,
+    color: '#5D4037',
+  },
+  input: {
+    borderWidth: 1,
+    borderColor: '#ccc',
+    borderRadius: 8,
+    padding: 10,
+    marginBottom: 10,
+  },
+  multilineInput: {
+    height: 100,
+    textAlignVertical: 'top',
+  },
+  ingredientsList: {
+    marginBottom: 10,
+    paddingLeft: 10,
+  },
+  ingredientItem: {
+    fontSize: 14,
+    color: '#333',
+    marginBottom: 3,
+  },
+  modalButtons: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 20,
+  },
+  modalButton: {
+    borderRadius: 8,
+    padding: 12,
+    width: '48%',
+    alignItems: 'center',
+  },
+  cancelButton: {
+    backgroundColor: '#ccc',
+  },
+  saveButton: {
+    backgroundColor: '#5D4037',
+  },
+  buttonText: {
+    color: 'white',
+    fontWeight: 'bold',
+  },
 });

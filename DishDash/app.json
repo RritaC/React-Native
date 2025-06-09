@@ -24,6 +24,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "OPENAI_API_KEY": "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"
     }
   }
 }
